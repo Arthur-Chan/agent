@@ -6,7 +6,7 @@ package org.chan;
 public class App {
 
     public void doSomething(String something) {
-        System.out.println("print " + something);
+        System.out.println("do " + something);
     }
 
     public static void main(String[] args) {

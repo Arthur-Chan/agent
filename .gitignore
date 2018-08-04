@@ -3,3 +3,5 @@
 /agent-client/target/
 /agent-demo/target/
 /agent.iml
+agent-client/agent-client.iml
+agent-demo/agent-demo.iml
