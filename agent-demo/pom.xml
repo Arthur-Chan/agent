@@ -59,9 +59,8 @@
                             <Premain-Class>
                                 org.chan.AppAgent
                             </Premain-Class>
-                            <Agent-Class>
-                                org.chan.AppAgent
-                            </Agent-Class>
+                            <Can-Redefine-Classes>true</Can-Redefine-Classes>
+                            <Can-Retransform-Classes>true</Can-Retransform-Classes>
                             <Boot-Class-Path>
                                 C:/Users/luoch/.m2/repository/org/javassist/javassist/3.23.1-GA/javassist-3.23.1-GA.jar
                             </Boot-Class-Path>
