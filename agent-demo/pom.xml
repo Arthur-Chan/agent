@@ -63,7 +63,7 @@
                                 org.chan.AppAgent
                             </Agent-Class>
                             <Boot-Class-Path>
-                                C:/Users/luoch/.m2/repository/org/javassist/javassist/3.23.1-GA/javassist-3.23.1-GA.jar
+                                /Users/chenzhou/.m2/repository/org/javassist/javassist/3.23.1-GA/javassist-3.23.1-GA.jar
                             </Boot-Class-Path>
                         </manifestEntries>
                     </archive>
