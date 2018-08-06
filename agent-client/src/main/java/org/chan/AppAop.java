@@ -1,9 +1,9 @@
 package org.chan;
 
 /**
- * 直接修改代码
+ * Aop实现
  */
-public class AppCode {
+public class AppAop {
 
     public void doSomething(String something) {
         System.out.println("do " + something);
@@ -16,8 +16,6 @@ public class AppCode {
     }
 
     public static void main(String[] args) {
-        long start = System.currentTimeMillis();
-        new AppCode().doSomething("Hello World");
-        System.out.println("executeTime: " + (System.currentTimeMillis() - start));
+        new AppAop().doSomething("Hello World");
     }
 }
