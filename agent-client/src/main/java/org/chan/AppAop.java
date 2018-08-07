@@ -1,9 +1,9 @@
 package org.chan;
 
 /**
- * agent
+ * Aop实现
  */
-public class App {
+public class AppAop {
 
     public void doSomething(String something) {
         System.out.println("do " + something);
@@ -16,6 +16,6 @@ public class App {
     }
 
     public static void main(String[] args) {
-        new App().doSomething("Hello World");
+        new AppAop().doSomething("Hello World");
     }
 }

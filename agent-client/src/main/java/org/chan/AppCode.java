@@ -1,9 +1,9 @@
 package org.chan;
 
 /**
- * agent
+ * 直接修改代码
  */
-public class App {
+public class AppCode {
 
     public void doSomething(String something) {
         System.out.println("do " + something);
@@ -16,6 +16,8 @@ public class App {
     }
 
     public static void main(String[] args) {
-        new App().doSomething("Hello World");
+        long start = System.currentTimeMillis();
+        new AppCode().doSomething("Hello World");
+        System.out.println("executeTime: " + (System.currentTimeMillis() - start));
     }
 }
