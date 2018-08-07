@@ -5,6 +5,10 @@ public aspect DoSomethingAspect {
     pointcut callDoSomething():
             call(* org.chan.AppAop.doSomething(..));
 
+    before():callDoSomething(){
+        System.out.println("before-->" + thisJoinPoint);
+    }
+
     Object around():callDoSomething(){
         long start = System.currentTimeMillis();
         Object result = proceed();
@@ -12,4 +16,7 @@ public aspect DoSomethingAspect {
         return result;
     }
 
+    after():callDoSomething(){
+        System.out.println("after-->" + thisJoinPoint);
+    }
 }
